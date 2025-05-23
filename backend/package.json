@@ -1,0 +1,28 @@
+{
+  "name": "book-api-express-sqlite",
+  "version": "1.0.0",
+  "description": "A simple API to manage books and authors using Express and SQLite.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "express",
+    "sqlite",
+    "api",
+    "books",
+    "authors"
+  ],
+  "author": "Seu Nome",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
