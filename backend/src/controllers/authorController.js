@@ -5,6 +5,7 @@ const AuthorService = require('../services/authorService');
 // comment 001
 // comment 002
 class AuthorController {
+    // This method handles the creation of a new author
     static async createAuthor(req, res) {
         try {
             const { name, nationality } = req.body;
